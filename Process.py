@@ -6,8 +6,6 @@ model_wrapper = ModelWrapper()
 img = cv2.imread('input.jpg')
 image_data = cv2.imencode('.jpg', img)[1].tostring()
 
-print(image_data)
-
 # with open('input.jpg', 'rb') as f:
 #     image_data = f.read()
 
